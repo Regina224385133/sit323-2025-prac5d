@@ -12,7 +12,7 @@ RUN npm install
 COPY . .
 
 # 暴露应用运行的端口（根据需要修改）
-EXPOSE 3000
+EXPOSE 8080
 
 # 定义运行应用的命令
 CMD ["node", "app.js"]
